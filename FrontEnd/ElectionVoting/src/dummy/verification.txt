@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Verification Dashboard</title>
+    <style>
+        /* General body styling */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f9;
+}
+
+/* Container styling */
+.container {
+    display: flex;
+    gap: 20px;
+    width: 60%;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Individual card styling */
+.card {
+    flex: 1;
+    padding: 20px;
+    text-align: center;
+    background-color: #ffffff;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+/* Card hover effect */
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Highlight for active card */
+.card.active {
+    border: 2px solid #007bff;
+    background-color: #e7f1ff;
+    color: #007bff;
+    font-weight: bold;
+    box-shadow: 0 6px 8px rgba(0, 123, 255, 0.2);
+}
+
+/* Text styling */
+h2 {
+    margin: 0 0 10px;
+    font-size: 1.5em;
+}
+
+p {
+    margin: 0;
+    font-size: 1.2em;
+}
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="card" id="partyCard" onclick="highlightCard('partyCard')">
+            <h2>Party Verification</h2>
+            <p>Count: <span id="partyCount">120</span></p>
+        </div>
+        <div class="card" id="voterCard" onclick="highlightCard('voterCard')">
+            <h2>Voter Verification</h2>
+            <p>Count: <span id="voterCount">450</span></p>
+        </div>
+    </div>
+
+    <script>
+        function highlightCard(id) {
+            // Remove active class from both cards
+            document.getElementById('partyCard').classList.remove('active');
+            document.getElementById('voterCard').classList.remove('active');
+
+            // Add active class to the clicked card
+            document.getElementById(id).classList.add('active');
+        }
+    </script>
+</body>
+</html>
