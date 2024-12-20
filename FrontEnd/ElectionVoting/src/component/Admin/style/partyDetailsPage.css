@@ -1,0 +1,52 @@
+.container {
+    width: 80%;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #1E3E62;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    color:#e7f1ff;
+}
+h1 {
+    text-align: center;
+    color:#e7f1ff;
+}
+.details {
+    color:#e7f1ff;
+    margin-bottom: 20px;
+}
+
+.details > div {
+    color:#e7f1ff;
+    margin: 10px 0;
+}
+.buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.buttons button {
+
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+.approve-btn {
+    background-color: #4CAF50;
+    color: white;
+}
+.reject-btn {
+    background-color: #f44336;
+    color: white;
+}
+.review-section {
+    margin-top: 20px;
+}
+.review-section input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}

@@ -1,0 +1,66 @@
+/* General body styling */
+
+
+/* Navbar styling */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #000000; /* Semi-transparent background */
+    color: white;
+    padding: 10px 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Logo styling */
+.logo {
+    font-size: 1.5em;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+/* Navigation links */
+.nav-links {
+    list-style: none;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-links li {
+    margin-left: 20px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: white;
+    font-size: 1em;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+/* Hover effect on links */
+.nav-links a:hover {
+    color: #ffdd57; /* Highlight color on hover */
+}
+
+/* Content styling */
+.content {
+    text-align: center;
+    margin-top: 50px;
+    color: white;
+    padding: 20px;
+}
+
+.content h1 {
+    font-size: 3em;
+    margin: 0 0 10px;
+}
+
+.content p {
+    font-size: 1.2em;
+}
+
+/* Footer styling */

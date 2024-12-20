@@ -27,10 +27,12 @@ export const dataFetchingError=(error)=>{
 
 export const fetchPartyVerificationList=()=>{
     return async (dispatch)=>{
-        dispatch(dataLoading)
+        // dispatch(dataLoading)
         try{
-        let PartyVerificationDataList=await axios.get("")//add the endpoint of party verification
-        dispatch(dataFetchSuccessFully([]))//add PartyVerificationDataList
+        let PartyVerificationDataList=await axios.get("https://election-management-system-44zy.onrender.com/get-party-data")//add the endpoint of party verification
+        console.log("hi")
+        console.log(PartyVerificationDataList);
+        // dispatch(dataFetchSuccessFully([]))//add PartyVerificationDataList
         }catch(e){
             dispatch()
         }
