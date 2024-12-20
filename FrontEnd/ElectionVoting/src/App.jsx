@@ -1,15 +1,15 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import LoginPage from './component/LoginPage'
 import { VerificationCountDisplay } from './component/verificationCount'
+import VoteParty from './component/VoteParty'
+
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <>
-      <VerificationCountDisplay/>
+      {/* <VerificationCountDisplay/> */}
+      {/* <LoginPage /> */}
+      <VoteParty />
     </>
   )
 }
