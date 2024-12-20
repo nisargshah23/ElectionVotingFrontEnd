@@ -7,6 +7,7 @@ const LoginPage = () => {
   const [password, setPassword] = useState('');
   const [error, setError] = useState('');
 
+  
   const handleSubmit = (e) => {
     e.preventDefault();
     if (!username || !password) {
@@ -18,7 +19,6 @@ const LoginPage = () => {
     setUsername('')
     setPassword('')
   };
-
   return (
     <div className="login-container">
       <h2>Login</h2>

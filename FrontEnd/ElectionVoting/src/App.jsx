@@ -1,6 +1,9 @@
+import BannerVerification from './component/BannerVerification'
 import LoginPage from './component/LoginPage'
+import SignupPage from './component/Signup'
 import { VerificationCountDisplay } from './component/verificationCount'
 import VoteParty from './component/VoteParty'
+
 
 
 function App() {
@@ -9,7 +12,9 @@ function App() {
     <>
       {/* <VerificationCountDisplay/> */}
       {/* <LoginPage /> */}
-      <VoteParty />
+
+      {/* <VoteParty /> */}
+      {/* <BannerVerification /> */}
     </>
   )
 }
