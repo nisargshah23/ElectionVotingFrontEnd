@@ -1,5 +1,7 @@
 .Partycontainer{
     display: flex;
+    
+
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -8,7 +10,7 @@
 
 /* Party Card Styling */
 .party-card {
-    background-color: #ffffff;
+    background-color: #1E3E62;
     width: 90%;
     max-width: 600px;
     margin-top: 20px;
@@ -27,6 +29,7 @@
 
 /* Flex Container for Image and Text */
 .flex-container {
+    color:#e7f1ff;
     display: flex;
     align-items: center; /* Vertically aligns items */
     gap: 20px; /* Adds space between the image and text */
@@ -56,25 +59,32 @@
 
 /* Party Details Styling */
 .party-details {
+    color:#e7f1ff;
     flex: 1; /* Ensures the text takes up remaining space */
 }
 
 .party-name {
+    color:#e7f1ff;
     font-size: 1.8em;
     margin: 0 0 10px;
-    color: #333;
+    
 }
 
 .party-details p {
+    color:#e7f1ff; ;
     margin: 5px 0;
-    color: #555;
     font-size: 1em;
 }
 
 /* Status Section Styling */
 .status-section {
+    color:#e7f1ff;
     padding-top: 10px;
     border-top: 1px solid #ddd;
+}
+
+.status-section p{
+    color:#e7f1ff;
 }
 
 .status {

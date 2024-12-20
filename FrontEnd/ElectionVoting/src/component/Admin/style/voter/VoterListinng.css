@@ -1,6 +1,6 @@
 h1 {
     text-align: center;
-    color: #333;
+    color:#e7f1ff;
     margin-bottom: 30px;
 }
 .Votercontainer {
@@ -10,7 +10,7 @@ h1 {
     justify-content: center;
 }
 .votercard {
-    background-color: white;
+    background-color: #1E3E62;
     border-radius: 8px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     width: 22%;
@@ -37,11 +37,11 @@ h1 {
 .votercard h2 {
     font-size: 18px;
     margin: 10px 0;
-    color: #333;
+    color:#e7f1ff;
 }
 .votercard p {
     margin: 5px 0;
-    color: #555;
+    color:#e7f1ff;
     line-height: 1.5;
 }
 .status {

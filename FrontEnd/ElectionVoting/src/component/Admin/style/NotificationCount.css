@@ -2,6 +2,7 @@
 /* Grid container styling */
 .container {
     display: grid;
+    color: #FF6500;
     grid-template-columns: repeat(2, 2fr); /* 2 elements per row */
     gap: 20px; /* Space between grid items */
     width: 98.7vw;
@@ -18,9 +19,10 @@
 /* Card styling */
 .card {
     height: 30vh;
+
     padding: 20px;
     text-align: center;
-    background-color: #ffffff;
+    background-color: #1E3E62;
     border: 2px solid #ccc;
     border-radius: 10px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
@@ -50,12 +52,14 @@
 /* Text styling */
 h2 {
     margin: 0 0 10px;
+    color: aliceblue;
     text-align: center;
     font-size: 1.5em;
 }
 
 p {
     margin: 0;
+    color: aliceblue;
     text-align: center;
     font-size: 1.2em;
 }

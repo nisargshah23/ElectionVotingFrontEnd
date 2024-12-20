@@ -57,8 +57,8 @@ export const PartyVerificationApprovalPage = () => {
               <h1>Party Details</h1>
 
               <div class="details">
-                <div>
-                  <strong>Party Name:</strong> {ele.party_name}
+                <div style={{color:"#e7f1ff"}}>
+                  <strong >Party Name:</strong> {ele.party_name}
                 </div>
                 <div>
                   <strong>Leader Name:</strong> {ele.leader_name}

@@ -2,7 +2,7 @@
     max-width: 1200px;
     margin: 20px auto;
     padding: 20px;
-    background-color: white;
+    background-color: #1E3E62;
     border-radius: 8px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
@@ -20,7 +20,7 @@
 .details-page-header h1 {
     font-size: 24px;
     margin-top: 15px;
-    color: #333;
+    color:#e7f1ff;
 }
 .details-page-grid {
     display: grid;
@@ -29,17 +29,17 @@
 }
 .details-page-grid-item {
     padding: 10px 20px;
-    background-color: #f4f4f4;
+    background-color: #0B192C;
     border-radius: 6px;
 }
 .details-page-grid-item strong {
     display: block;
-    color: #555;
+    color:#e7f1ff;
 }
 .details-page-grid-item span {
     display: block;
     font-size: 16px;
-    color: #333;
+    color:#e7f1ff;
     font-weight: bold;
     margin-top: 5px;
 }
